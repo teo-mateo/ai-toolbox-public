@@ -1,0 +1,7 @@
+# websearch-cli configuration
+# Copy to config.toml and fill in your API keys.
+# This file is copied next to the binary at build time.
+
+engine = "exa"              # or "serpapi"
+serpapi_api_key = "..."     # https://serpapi.com/
+exa_api_key = "..."         # https://dashboard.exa.ai/

@@ -1,0 +1,27 @@
+# --- Rust / Cargo ---
+target/
+**/*.rs.bk
+*.pdb
+
+# --- Local secrets & config ---
+# config.toml holds real API keys; only the .example is tracked.
+config.toml
+.env
+.env.*
+!.env.example
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs & temp ---
+*.log
+tmp/
